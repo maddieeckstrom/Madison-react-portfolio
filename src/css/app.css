@@ -1,0 +1,9 @@
+.avatar {
+    border-radius: 10px;
+}
+
+.footer {
+    display: flex;
+    gap: 16px;
+    list-style: none;
+}
