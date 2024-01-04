@@ -1,9 +1,42 @@
-.avatar {
-    border-radius: 10px;
+body {
+    /* background-color: lemonchiffon; */
+    background-color: lightgoldenrodyellow;
+    font-family: Garamond, Courier, Georgia, Times, 'Times New Roman', serif;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 15%;
+    padding-right: 15%;
+    color: orange;
+}
+
+.navbarLinks {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+a {
+    color: orange;
+    font-weight: bold;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:hover {
+    color: black;
 }
 
 .footer {
     display: flex;
-    gap: 16px;
     list-style: none;
+    padding-left: 15%;
+    padding-right: 15%;
+    justify-content: space-between;
 }

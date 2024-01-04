@@ -1,14 +1,14 @@
-import avatar from '../assets/images/avatar.png'
-
-function Navbar() {
+export default function Navbar() {
     return (
-        <nav>
-            <div>
-                <img src={avatar} className="avatar" alt="Hammock avatar" />
+        <nav className="navbar">
+            <h1>madison eckstrom</h1>
+            <div className="navbarLinks">
+                <a href="./">about me</a>
+                <a href="./">portfolio</a>
+                <a href="./">resume</a>
+                <a href="./">contact</a>
             </div>
-            <h1>Madison</h1>
         </nav>
     )
 }
 
-export default Navbar;
