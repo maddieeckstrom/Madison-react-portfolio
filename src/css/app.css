@@ -11,7 +11,24 @@ body {
     justify-content: space-between;
     padding-left: 15%;
     padding-right: 15%;
+    padding-bottom: 5%;
     color: orange;
+}
+
+@media screen and (max-width: 900px) {
+    .navbar {
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .navbar {
+        padding-left: 0%;
+        padding-right: 0%;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
 }
 
 .navbarLinks {
@@ -39,4 +56,20 @@ a:hover {
     padding-left: 15%;
     padding-right: 15%;
     justify-content: space-between;
+}
+
+@media screen and (max-width: 900px) {
+    .footer {
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .footer {
+        padding-left: 0%;
+        padding-right: 0%;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
 }
