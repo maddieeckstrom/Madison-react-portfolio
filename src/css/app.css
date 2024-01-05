@@ -56,6 +56,8 @@ a:active {
 
 .sections {
     display: flex;
+    text-align: justify;
+    gap: 2%;
 }
 
 @media screen and (max-width: 700px) {
@@ -63,6 +65,22 @@ a:active {
         padding-left: 0%;
         padding-right: 0%;
         flex-direction: column;
+    }
+}
+
+.aboutmeP {
+    margin-block-start: 0;
+}
+
+.aboutmeAvatar {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+@media screen and (max-width: 700px) {
+    .aboutmeAvatar {
+        display: none;
     }
 }
 
