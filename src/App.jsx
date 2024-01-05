@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import './css/app.css';
 import Navbar from './components/Navbar';
+import AboutMe from './components/AboutMe';
 import Portfolio from './components/Portfolio';
 import Footer from './components/Footer';
 
@@ -10,7 +11,9 @@ function App() {
     <>
       <Navbar/>
 
-      <Portfolio/>
+      <AboutMe/>
+
+      {/* <Portfolio/> */}
 
       <Footer/>
     </>
