@@ -50,11 +50,41 @@ a:hover {
     color: black;
 }
 
+a:active {
+    font-weight: bolder;
+}
+
+.sections {
+    display: flex;
+}
+
+@media screen and (max-width: 700px) {
+    .sections {
+        padding-left: 0%;
+        padding-right: 0%;
+        flex-direction: column;
+    }
+}
+
+.aboutmeImage {
+    max-width: 50%;
+    height: auto;
+}
+
+@media screen and (max-width: 700px) {
+    .aboutmeImage {
+        align-content: flex-start;
+        max-width: 100%;
+        height: auto;
+    }
+}
+
 .footer {
     display: flex;
     list-style: none;
     padding-left: 15%;
     padding-right: 15%;
+    padding-top: 5%;
     justify-content: space-between;
 }
 
