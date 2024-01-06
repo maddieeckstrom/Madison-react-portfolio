@@ -68,6 +68,15 @@ a:active {
     }
 }
 
+.sectionsP {
+    display: flex;
+    flex-direction: column;
+}
+
+.sectionP {
+    display: flex;
+}
+
 .aboutmeP {
     margin-block-start: 0;
 }
@@ -95,6 +104,11 @@ a:active {
         max-width: 100%;
         height: auto;
     }
+}
+
+.portfolioCards {
+    max-width: 95%;
+    height: auto;
 }
 
 .footer {
