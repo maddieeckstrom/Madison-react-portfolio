@@ -75,6 +75,7 @@ a:active {
 
 .sectionP {
     display: flex;
+    padding-bottom: 2%;
 }
 
 .aboutmeP {
@@ -84,7 +85,6 @@ a:active {
 .aboutmeAvatar {
     width: 100%;
     height: auto;
-    object-fit: cover;
 }
 
 @media screen and (max-width: 700px) {
@@ -96,6 +96,7 @@ a:active {
 .aboutmeImage {
     max-width: 50%;
     height: auto;
+    object-fit: contain;
 }
 
 @media screen and (max-width: 700px) {

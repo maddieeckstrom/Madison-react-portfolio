@@ -2,8 +2,8 @@ import { useState } from 'react';
 import './css/app.css';
 import Navbar from './components/Navbar';
 import AboutMe from './components/AboutMe';
-import Portfolio from './components/Portfolio';
-import Contact from './components/Contact';
+// import Portfolio from './components/Portfolio';
+// import Contact from './components/Contact';
 import Footer from './components/Footer';
 
 function App() {
@@ -12,9 +12,9 @@ function App() {
     <>
       <Navbar/>
 
-      {/* <AboutMe/> */}
+      <AboutMe/>
 
-      <Portfolio/>
+      {/* <Portfolio/> */}
 
       {/* <Contact/> */}
 
