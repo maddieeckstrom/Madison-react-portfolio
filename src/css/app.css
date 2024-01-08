@@ -94,7 +94,7 @@ a:active {
 .backgroundImage {
     max-width: 98%;
     height: auto;
-    opacity: .3;
+    opacity: .25;
     max-height: 97%;
     margin-block-start: 1.5%;
 }
