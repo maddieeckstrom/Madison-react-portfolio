@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import contactBackImage from '../assets/images/contactBackImage.jpg';
+// import contactBackImage from '../assets/images/contactBackImage.jpg';
 
 export default function BasicForm() {
   const [name, setName] = useState('')
@@ -42,25 +42,25 @@ export default function BasicForm() {
 
 
   return (
-    <form className="contactForm" onSubmit={(e) => onSubmit(e)}>
+    <form id="contactBackImage" className="contactForm" onSubmit={(e) => onSubmit(e)}>
         
-        <img className="contactBackImage" src={contactBackImage}/>
+        {/* <img className="contactBackImage" src={contactBackImage}/> */}
 
-        <h2>reach out</h2>
+        <h2 className="contactHeader">let's connect</h2>
     
         <div className="formcarry-block">
             <label htmlFor="name">Full Name</label>
-            <input type="text" value={name} onChange={(e) => setName(e.target.value)} id="name" placeholder="Your first and last name" />
+            <input type="text" value={name} onChange={(e) => setName(e.target.value)} id="name" placeholder="your first and last name" />
         </div>
         
         <div className="formcarry-block">
             <label htmlFor="email">Your Email Address</label>
-            <input type="email" value={email} onChange={(e) => setEmail(e.target.value)} id="email" placeholder="john@doe.com" />
+            <input type="email" value={email} onChange={(e) => setEmail(e.target.value)} id="email" placeholder="email@email.com" />
         </div>
         
         <div className="formcarry-block">
             <label htmlFor="message">Your message</label>
-            <textarea value={message} onChange={(e) => setMessage(e.target.value)} id="message" placeholder="Enter your message..."></textarea>
+            <textarea value={message} onChange={(e) => setMessage(e.target.value)} id="message" placeholder="enter your message"></textarea>
         </div>
         
         <div className="formcarry-block">  
