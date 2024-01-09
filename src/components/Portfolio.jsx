@@ -7,7 +7,7 @@ import calendarimage from '../assets/images/calendarPic.png';
 
 
 
-// export default function Portfolio() {
+export default function Portfolio() {
     
 //     const modal = () => {
 //         return (
@@ -43,4 +43,4 @@ import calendarimage from '../assets/images/calendarPic.png';
             </div>
         </section>
     )
-// }
+}
