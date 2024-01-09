@@ -151,6 +151,30 @@ a:active {
     height: auto;
 }
 
+.resumeDiv {
+    align-self: center;
+}
+
+.avatarImage {
+    max-width: 25%;
+    height: auto;
+    align-self: center;
+}
+
+@media screen and (max-width: 900px) {
+    .avatarImage {
+        max-width: 40%;
+        height: auto;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .avatarImage {
+        max-width: 50%;
+        height: auto;
+    }
+}
+
 .footer {
     display: flex;
     list-style: none;
