@@ -5,7 +5,28 @@ import moviemiximage from '../assets/images/moviemixPic.png';
 import portfolioimage from '../assets/images/firstportfolioPic.png';
 import calendarimage from '../assets/images/calendarPic.png';
 
-export default function Portfolio() {
+
+
+// export default function Portfolio() {
+    
+//     const modal = () => {
+//         return (
+//             <div className="modal">
+//                 <div className="modal-header">
+//                     <h4 className='modal-title'>{$modal.title}</h4>
+//                 </div>
+//                 <div className='modal-body'>
+//                     <button onClick={a href=}>
+//                         GitHub
+//                     </button>
+//                     <button onClick={$modal.site}>
+//                         View Site
+//                     </button>
+//                 </div>
+//             </div>
+    //     )
+    // }
+
     return (
         <section className="sectionsP">
             <div className="sectionP">
@@ -22,4 +43,4 @@ export default function Portfolio() {
             </div>
         </section>
     )
-}
+// }

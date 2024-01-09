@@ -6,7 +6,7 @@ export default function Resume() {
         const pdfUrl = "https://docs.google.com/document/d/1jtWdCDDMOe7cwxrb-BXLSD0Y6tiw6A-AcAplADdhq30/export?format=pdf";
         const link = document.createElement("a");
         link.href = pdfUrl;
-        link.download = "Madisonresume.pdf"; // specify the filename
+        link.download = "MadisonEckstromresume.pdf"; // specify the filename
         document.body.appendChild(link);
         link.click();
         document.body.removeChild(link);

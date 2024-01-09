@@ -1,6 +1,24 @@
-# React + Vite
+# Madison-react-portfoio
+
+## Description
+
+## Getting Started
+
+Dependencies (what did I install) and how to install to run this program
+
+## License
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+
+## Acknowledgments
+
+React + Vite starter template,
+
+Download PDF file tutorial at https://www.geeksforgeeks.org/how-to-download-pdf-file-in-reactjs/,
+
+
+
+
 
 Currently, two official plugins are available:
 
