@@ -8,6 +8,8 @@ import calendarimage from '../assets/images/calendarPic.png';
 
 
 export default function Portfolio() {
+
+
     
 //     const modal = () => {
 //         return (
@@ -30,8 +32,19 @@ export default function Portfolio() {
     return (
         <section className="sectionsP">
             <div className="sectionP">
-                <a href="https://github.com/quar-tech/mvc-recipe-sharing"><img className="portfolioCards" src={culinaryimage} alt="culinary connect"/></a>
-                <a href="https://github.com/maddieeckstrom/weather-forecast-dashboard"><img className="portfolioCards" src={weatherimage}/></a>
+                <div>
+                    <div className="culinaryModal">
+                    
+                    </div>
+                    <a href="https://github.com/quar-tech/mvc-recipe-sharing"><img className="portfolioCards" src={culinaryimage} alt="culinary connect"/></a>
+                </div>
+                <div>
+                    <div className="weatherModal">
+
+                    </div>
+                    <a href="https://github.com/maddieeckstrom/weather-forecast-dashboard"><img className="portfolioCards" src={weatherimage}/></a>
+                </div>
+
             </div>
             <div className="sectionP">
                 <a href="https://github.com/maddieeckstrom/API-timed-coding-quiz"><img className="portfolioCards" src={quizimage}/></a>

@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-// import contactBackImage from '../assets/images/contactBackImage.jpg';
 
 export default function BasicForm() {
   const [name, setName] = useState('')
@@ -42,30 +41,30 @@ export default function BasicForm() {
 
 
   return (
-    <form id="contactBackImage" className="contactForm" onSubmit={(e) => onSubmit(e)}>
-        
-        {/* <img className="contactBackImage" src={contactBackImage}/> */}
+    <section>
+        <form id="contactBackImage" className="contactForm" onSubmit={(e) => onSubmit(e)}>
 
-        <h2 className="contactHeader">let's connect</h2>
-    
-        <div className="formcarry-block">
-            <label htmlFor="name">Full Name</label>
-            <input type="text" value={name} onChange={(e) => setName(e.target.value)} id="name" placeholder="your first and last name" />
-        </div>
+            <h2 className="contactHeader">let's connect</h2>
         
-        <div className="formcarry-block">
-            <label htmlFor="email">Your Email Address</label>
-            <input type="email" value={email} onChange={(e) => setEmail(e.target.value)} id="email" placeholder="email@email.com" />
-        </div>
-        
-        <div className="formcarry-block">
-            <label htmlFor="message">Your message</label>
-            <textarea value={message} onChange={(e) => setMessage(e.target.value)} id="message" placeholder="enter your message"></textarea>
-        </div>
-        
-        <div className="formcarry-block">  
-            <button type="submit">Send</button>
-        </div>
-    </form>
+            <div className="formcarry-block">
+                <label htmlFor="name">Full Name</label>
+                <input type="text" value={name} onChange={(e) => setName(e.target.value)} id="name" placeholder="your first and last name" />
+            </div>
+            
+            <div className="formcarry-block">
+                <label htmlFor="email">Your Email Address</label>
+                <input type="email" value={email} onChange={(e) => setEmail(e.target.value)} id="email" placeholder="email@email.com" />
+            </div>
+            
+            <div className="formcarry-block">
+                <label htmlFor="message">Your message</label>
+                <textarea value={message} onChange={(e) => setMessage(e.target.value)} id="message" placeholder="enter your message"></textarea>
+            </div>
+            
+            <div className="formcarry-block">  
+                <button type="submit">Send</button>
+            </div>
+        </form>
+    </section>
   )
 }

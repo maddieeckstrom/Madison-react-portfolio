@@ -1,6 +1,5 @@
 body {
-    /* background-color: lemonchiffon; */
-    background-color: lightgoldenrodyellow;
+    background-color: #FFFFF0;
     font-family: Garamond, Courier, Georgia, Times, 'Times New Roman', serif;
     padding-left: 10%;
     padding-right: 10%;
@@ -12,7 +11,7 @@ body {
     padding-left: 15%;
     padding-right: 15%;
     padding-bottom: 5%;
-    color: orange;
+    color: #F28C28;
 }
 
 @media screen and (max-width: 900px) {
@@ -45,7 +44,7 @@ body {
 }
 
 a {
-    color: orange;
+    color: #F28C28;
     font-weight: bold;
 }
 
@@ -58,7 +57,7 @@ a:hover {
 }
 
 a:active {
-    font-weight: bolder;
+    color: black;
 }
 
 .sections {
@@ -94,7 +93,7 @@ a:active {
 .backgroundImage {
     max-width: 98%;
     height: auto;
-    opacity: .25;
+    opacity: .65;
     max-height: 97%;
     margin-block-start: 1.5%;
 }
@@ -109,10 +108,11 @@ a:active {
     font-size: 2vw;
     margin-block: 0;
     position: absolute;
-    top: 50%;
+    top: 20%;
     left: 5%;
     right: 5%;
     transform: translate(0%, -50%);
+    padding: 5%;
 }
 
 @media screen and (max-width: 700px) {
@@ -136,6 +136,12 @@ a:active {
     max-width: 48%;
     height: auto;
     object-fit: contain;
+    margin-block: 0;
+    position: absolute;
+    top: 65%;
+    left: 25%;
+    transform: translate(0%, -50%);
+    border: solid .25em #FFFFF0;
 }
 
 @media screen and (max-width: 700px) {
@@ -187,13 +193,24 @@ a:active {
 #contactBackImage {
     background-image: url('../assets/images/contactBackImage.jpg');
     opacity: .7;
-    width: 78%;
+    width: 100%;
     height: auto;
-    position: absolute;
-    border: solid .25em orange;
+    border: solid .25em #F28C28;
     background-size: cover;
     background-position: center;
     height: 50vw;
+}
+
+@media screen and (min-width: 1150px) {
+    #contactBackImage {
+        height: 30vw;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    #contactBackImage {
+        height: 50vw;
+    }
 }
 
 @media screen and (max-width: 700px) {
@@ -228,13 +245,13 @@ a:active {
 }
 
 .formcarry-block input {
-    border: solid medium orange;
+    border: solid medium #F28C28;
     margin-top: 2%;
     text-align: center;
 }
 
 .formcarry-block textarea {
-    border: solid medium orange;
+    border: solid medium #F28C28;
     width: 100%;
     margin-top: 2%;
     text-align: center;
