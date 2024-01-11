@@ -56,6 +56,14 @@ body {
     }
 }
 
+@media screen and (max-width: 355px) {
+    .navbarLinks {
+        padding-left: 1%;
+        padding-right: 1%;
+        font-size: 3.5vw;
+    }
+}
+
 a {
     color: #F28C28;
     font-weight: bold;
@@ -133,6 +141,8 @@ a:active {
     .aboutmeP {
         font-size: 2.5vw;
         top: 25%;
+        left: 1%;
+        right: 1%;
     }
 }
 
@@ -189,6 +199,12 @@ a:active {
     }
 }
 
+@media screen and (max-width: 355px) {
+    .portfolioDiv h2 {
+        font-size: .75em;
+    }
+}
+
 .portfolio a {
     display: flex;
 }
@@ -208,6 +224,12 @@ a:active {
 @media screen and (max-width: 600px) {
     .portfolioLinks {
         font-size: .75em;
+    }
+}
+
+@media screen and (max-width: 355px) {
+    .portfolioLinks {
+        font-size: .5em;
     }
 }
 
