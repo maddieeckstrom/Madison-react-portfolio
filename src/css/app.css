@@ -82,7 +82,6 @@ a:active {
     .aboutmeSection {
         padding-left: 0%;
         padding-right: 0%;
-        /* flex-direction: column; */
     }
 }
 
@@ -173,7 +172,7 @@ a:active {
 .portfolioDiv {
     margin: 1%;
     padding: 3%;
-    background-color: #FFF8DC;
+    background-color: #fff5cd;
     text-align: center;
     display: flex;
     flex-direction: column;
@@ -247,7 +246,7 @@ a:active {
 }
 
 .Button {
-    background-color: #FFF8DC;
+    background-color: #fff5cd;
 }
 
 .avatarImage {
@@ -292,7 +291,7 @@ a:active {
 
 @media screen and (min-width: 1200px) {
     #contactBackImage {
-        height: 30vw;
+        height: 35vw;
     }
 }
 
@@ -316,7 +315,7 @@ a:active {
 
 .contactHeader {
     margin-bottom: 1%;
-    color: #353935;
+    color: black;
 }
 
 @media screen and (max-width: 700px) {
@@ -335,13 +334,13 @@ a:active {
 }
 
 .formcarry-block input {
-    border: solid medium #FFF8DC;
+    border: solid medium #fff5cd;
     margin-top: 2%;
     text-align: center;
 }
 
 .formcarry-block textarea {
-    border: solid medium #FFF8DC;
+    border: solid medium #fff5cd;
     width: 100%;
     margin-top: 2%;
     text-align: center;

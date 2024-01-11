@@ -2,13 +2,17 @@
 
 ## Description
 
+This application is my all-inclusive portfolio. It provies a bio of myself, some previous web development work that I've accomplished, a downloadable resume in PDF format, and a contact form for those wishing to email me. I will be using it not only to connect with professionals in the industry, but to apply to jobs as well.
+
+Link to the live application: 
+
 ## Getting Started
 
-Dependencies (what did I install) and how to install to run this program
+This program has been deployed to Netlify and thus does not need any installations to run.
 
 ## License
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+
 
 ## Acknowledgments
 
@@ -17,10 +21,3 @@ React + Vite starter template,
 Download PDF file tutorial at https://www.geeksforgeeks.org/how-to-download-pdf-file-in-reactjs/,
 
 Formcarry contact form template at https://formcarry.com/
-
-
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
