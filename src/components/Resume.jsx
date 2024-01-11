@@ -13,10 +13,10 @@ export default function Resume() {
     };
 
     return (
-        <section className="sectionsP">
+        <section className="resumeSection">
             <div className="resumeDiv">
-                <h2>download my resume here:</h2>
-                <button onClick={onButtonClick}>Download PDF</button>
+                <h2 className="resumeH">download my resume here:</h2>
+                <button className="Button" onClick={onButtonClick}>Download PDF</button>
             </div>
         <img className="avatarImage" src={avatarImage}></img>
         </section>

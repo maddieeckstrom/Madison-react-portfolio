@@ -14,6 +14,13 @@ body {
     color: #F28C28;
 }
 
+@media screen and (min-width: 1200px) {
+    .navbar {
+        padding-left: 25%;
+        padding-right: 25%;
+    }
+}
+
 @media screen and (max-width: 900px) {
     .navbar {
         padding-left: 5%;
@@ -27,6 +34,12 @@ body {
         padding-right: 0%;
         flex-wrap: wrap;
         justify-content: space-evenly;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .navbar {
+        margin-bottom: 5%;
     }
 }
 
@@ -53,41 +66,35 @@ a:link {
 }
 
 a:hover {
-    color: black;
+    color: #353935;
 }
 
 a:active {
-    color: black;
+    color: #353935;
 }
 
-.sections {
+.aboutmeSection {
     display: flex;
-    text-align: justify;
-    gap: 2%;
+    justify-content: center;
 }
-
 
 @media screen and (max-width: 700px) {
-    .sections {
+    .aboutmeSection {
         padding-left: 0%;
         padding-right: 0%;
-        flex-direction: column;
+        /* flex-direction: column; */
     }
-}
-
-.sectionsP {
-    display: flex;
-    flex-direction: column;
-}
-
-.sectionP {
-    display: flex;
-    padding-bottom: 2%;
 }
 
 .aboutmeContainer {
     position: relative;
     text-align: center;
+}
+
+@media screen and (min-width: 1200px) {
+    .aboutmeContainer {
+        max-width:75%;
+    }
 }
 
 .backgroundImage {
@@ -98,14 +105,8 @@ a:active {
     margin-block-start: 1.5%;
 }
 
-@media screen and (max-width: 700px) {
-    .backgroundImage {
-        display: none;
-    }
-}
-
 .aboutmeP {
-    font-size: 2vw;
+    font-size: 1.75vw;
     margin-block: 0;
     position: absolute;
     top: 20%;
@@ -113,25 +114,29 @@ a:active {
     right: 5%;
     transform: translate(0%, -50%);
     padding: 5%;
+
+}
+
+@media screen and (min-width: 1200px) {
+    .aboutmeP {
+        font-size: 1.5vw;
+    }
 }
 
 @media screen and (max-width: 700px) {
     .aboutmeP {
-        font-size: 2.5vw;
-        position: relative;
-        transform: translate(-5%, 0);
-        padding-bottom: 5%;
+        font-size: 2vw;
+        top: 20%;
     }
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 550px) {
     .aboutmeP {
-        font-size: 3.5vw;
-        position: relative;
-        transform: translate(-5%, 0);
-        padding-bottom: 5%;
+        font-size: 2.5vw;
+        top: 25%;
     }
 }
+
 .aboutmeImage {
     max-width: 48%;
     height: auto;
@@ -146,25 +151,110 @@ a:active {
 
 @media screen and (max-width: 700px) {
     .aboutmeImage {
-        align-content: flex-start;
-        max-width: 100%;
-        height: auto;
+        top: 67%;
     }
 }
 
+@media screen and (max-width: 550px) {
+    .aboutmeImage {
+        top: 71%;
+    }
+}
+
+.portfolio {
+    display: flex;
+    flex-direction: column;
+}
+
+.portfolioRow {
+    display: flex;
+}
+
+.portfolioDiv {
+    margin: 1%;
+    padding: 3%;
+    background-color: #FFF8DC;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    color: #F28C28;
+}
+
+.portfolioDiv h2 {
+    margin-block-start: 0;
+}
+
+@media screen and (max-width: 600px) {
+    .portfolioDiv h2 {
+        font-size: 1em;
+    }
+}
+
+.portfolio a {
+    display: flex;
+}
+
 .portfolioCards {
-    max-width: 95%;
+    max-width: 75%;
     height: auto;
+    align-self: center;
+}
+
+.portfolioLinks {
+    display: flex;
+    justify-content: space-between;
+    padding: 5% 5% 0 5%;
+}
+
+@media screen and (max-width: 600px) {
+    .portfolioLinks {
+        font-size: .75em;
+    }
+}
+
+.resumeSection {
+    display: flex;
+    flex-direction: column
 }
 
 .resumeDiv {
     align-self: center;
+    color: #353935;
+}
+
+@media screen and (min-width: 1201px) {
+    .resumeH {
+        font-size: 1.5vw;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .resumeH {
+        font-size: 2vw;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .resumeH {
+        font-size: 3vw;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .resumeH {
+        font-size: 3.5vw;
+    }
+}
+
+.Button {
+    background-color: #FFF8DC;
 }
 
 .avatarImage {
     max-width: 25%;
     height: auto;
     align-self: center;
+    padding-top: 2%;
 }
 
 @media screen and (max-width: 900px) {
@@ -195,13 +285,12 @@ a:active {
     opacity: .7;
     width: 100%;
     height: auto;
-    border: solid .25em #F28C28;
     background-size: cover;
     background-position: center;
     height: 50vw;
 }
 
-@media screen and (min-width: 1150px) {
+@media screen and (min-width: 1200px) {
     #contactBackImage {
         height: 30vw;
     }
@@ -227,6 +316,7 @@ a:active {
 
 .contactHeader {
     margin-bottom: 1%;
+    color: #353935;
 }
 
 @media screen and (max-width: 700px) {
@@ -245,13 +335,13 @@ a:active {
 }
 
 .formcarry-block input {
-    border: solid medium #F28C28;
+    border: solid medium #FFF8DC;
     margin-top: 2%;
     text-align: center;
 }
 
 .formcarry-block textarea {
-    border: solid medium #F28C28;
+    border: solid medium #FFF8DC;
     width: 100%;
     margin-top: 2%;
     text-align: center;
@@ -271,6 +361,13 @@ a:active {
     justify-content: space-between;
 }
 
+@media screen and (min-width: 1200px) {
+    .footer {
+        padding-left: 25%;
+        padding-right: 25%;
+    }
+}
+
 @media screen and (max-width: 900px) {
     .footer {
         padding-left: 5%;
@@ -284,5 +381,11 @@ a:active {
         padding-right: 0%;
         flex-wrap: wrap;
         justify-content: space-evenly;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .footer {
+        margin-top: 5%;
     }
 }
