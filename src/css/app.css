@@ -175,8 +175,9 @@ a:active {
     flex-direction: column;
 }
 
-.portfolioRow {
-    display: flex;
+.portfolioGrid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
 }
 
 .portfolioDiv {
