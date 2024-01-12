@@ -74,11 +74,11 @@ a:link {
 }
 
 a:hover {
-    color: #353935;
+    color: #fff5cd;
 }
 
-a:active {
-    color: #353935;
+a.active {
+    text-decoration: underline wavy;
 }
 
 .aboutmeSection {

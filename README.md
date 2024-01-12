@@ -8,7 +8,9 @@ Link to the live application: https://madisoneckstromportfolio.netlify.app/
 
 ## Getting Started
 
-This program has been deployed to Netlify and thus does not need any installations to run.
+This program has been deployed to Netlify and thus does not need any installations to run. Please interact with the links in the navigation bar at the top of the page, as shown in screenshot 1 below, to view other sections of the portfolio.
+
+![screenshot 1](./src/assets/images/Screenshot1.png)
 
 ## Acknowledgments
 
