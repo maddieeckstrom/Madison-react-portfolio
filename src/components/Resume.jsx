@@ -1,5 +1,3 @@
-import avatarImage from '../assets/images/avatar.png';
-
 export default function Resume() {
 
     const onButtonClick = () => {
@@ -18,7 +16,6 @@ export default function Resume() {
                 <h2 className="resumeH">download my resume here:</h2>
                 <button className="Button" onClick={onButtonClick}>Download PDF</button>
             </div>
-        <img className="avatarImage" src={avatarImage}></img>
         </section>
     )
 }

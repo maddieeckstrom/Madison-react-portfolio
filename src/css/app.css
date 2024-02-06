@@ -10,7 +10,7 @@ body {
     justify-content: space-between;
     padding-left: 15%;
     padding-right: 15%;
-    padding-bottom: 5%;
+    padding-bottom: 3%;
     color: #F28C28;
 }
 
@@ -73,12 +73,8 @@ a:link {
     text-decoration: none;
 }
 
-a:hover {
-    color: #fff5cd;
-}
-
 a.active {
-    text-decoration: underline wavy;
+    color: rgb(92, 151, 171);
 }
 
 .aboutmeSection {
@@ -100,7 +96,7 @@ a.active {
 
 @media screen and (min-width: 1200px) {
     .aboutmeContainer {
-        max-width:75%;
+        max-width: 75%;
     }
 }
 
@@ -110,6 +106,16 @@ a.active {
     opacity: .65;
     max-height: 97%;
     margin-block-start: 1.5%;
+}
+
+@media screen and (min-width: 1000px) {
+    .backgroundImage {
+        width: 100%;
+        height: 80%;
+        opacity: .65;
+        max-height: 97%;
+        margin-block-start: 1.5%;
+    }
 }
 
 .aboutmeP {
@@ -124,9 +130,16 @@ a.active {
 
 }
 
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 1000px) {
     .aboutmeP {
         font-size: 1.5vw;
+        margin-block: 0;
+        position: absolute;
+        top: 17%;
+        left: 5%;
+        right: 5%;
+        transform: translate(0%, -50%);
+        padding: 3%;
     }
 }
 
@@ -158,6 +171,20 @@ a.active {
     border: solid .25em #FFFFF0;
 }
 
+@media screen and (min-width: 1000px) {
+   .aboutmeImage {
+        max-width: 48%;
+        height: auto;
+        object-fit: contain;
+        margin-block: 0;
+        position: absolute;
+        top: 55%;
+        left: 25%;
+        transform: translate(0%, -50%);
+        border: solid 0.25em #FFFFF0;
+   } 
+}
+
 @media screen and (max-width: 700px) {
     .aboutmeImage {
         top: 67%;
@@ -183,7 +210,7 @@ a.active {
 .portfolioDiv {
     margin: 1%;
     padding: 3%;
-    background-color: #fff5cd;
+    background-color: rgb(237, 246, 249);
     text-align: center;
     display: flex;
     flex-direction: column;
@@ -236,12 +263,15 @@ a.active {
 
 .resumeSection {
     display: flex;
-    flex-direction: column
+    flex-direction: column;
+    padding: 3%;
 }
 
 .resumeDiv {
     align-self: center;
     color: #353935;
+    display: flex;
+    flex-direction: column;
 }
 
 @media screen and (min-width: 1201px) {
@@ -269,7 +299,8 @@ a.active {
 }
 
 .Button {
-    background-color: #fff5cd;
+    background-color: rgb(237, 246, 249);
+    border: solid rgb(92, 151, 171);
 }
 
 .avatarImage {
@@ -357,13 +388,15 @@ a.active {
 }
 
 .formcarry-block input {
-    border: solid medium #fff5cd;
+    background-color: rgb(237, 246, 249);
+    border: solid medium rgb(92, 151, 171);
     margin-top: 2%;
     text-align: center;
 }
 
 .formcarry-block textarea {
-    border: solid medium #fff5cd;
+    background-color: rgb(237, 246, 249);
+    border: solid medium rgb(92, 151, 171);
     width: 100%;
     margin-top: 2%;
     text-align: center;
@@ -379,7 +412,7 @@ a.active {
     list-style: none;
     padding-left: 15%;
     padding-right: 15%;
-    padding-top: 5%;
+    padding-top: 3%;
     justify-content: space-between;
 }
 
