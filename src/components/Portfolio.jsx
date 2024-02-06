@@ -3,7 +3,7 @@ import weatherimage from '../assets/images/weatherPic.png';
 import quizimage from '../assets/images/quizPic.png';
 import moviemiximage from '../assets/images/moviemixPic.png';
 import portfolioimage from '../assets/images/firstportfolioPic.png';
-import calendarimage from '../assets/images/calendarPic.png';
+import skillmagnetimage from '../assets/images/skillmagnet.png';
 
 const projects = [
     {
@@ -15,32 +15,32 @@ const projects = [
     {
         title: "weather forecast",
         image: weatherimage,
-        github: "https://github.com/quar-tech/mvc-recipe-sharing",
-        site: "https://mvc-culinary-connect-e00ad0e3e10d.herokuapp.com/"
+        github: "https://github.com/maddieeckstrom/weather-forecast-dashboard",
+        site: "https://maddieeckstrom.github.io/weather-forecast-dashboard//"
     },
     {
         title: "api quiz",
         image: quizimage,
-        github: "https://github.com/quar-tech/mvc-recipe-sharing",
-        site: "https://mvc-culinary-connect-e00ad0e3e10d.herokuapp.com/"
+        github: "https://github.com/maddieeckstrom/API-timed-coding-quiz",
+        site: "https://maddieeckstrom.github.io/API-timed-coding-quiz/"
     },
     {
         title: "movie mix & sip",
         image: moviemiximage,
-        github: "https://github.com/quar-tech/mvc-recipe-sharing",
-        site: "https://mvc-culinary-connect-e00ad0e3e10d.herokuapp.com/"
+        github: "https://github.com/ucb-allstars-project-1/movie-cocktail-combo",
+        site: "https://ucb-allstars-project-1.github.io/movie-cocktail-combo/"
     },
     {
         title: "my first portfolio",
         image: portfolioimage,
-        github: "https://github.com/quar-tech/mvc-recipe-sharing",
-        site: "https://mvc-culinary-connect-e00ad0e3e10d.herokuapp.com/"
+        github: "https://github.com/maddieeckstrom/Madison_super_portfolio",
+        site: "https://maddieeckstrom.github.io/Madison_super_portfolio/"
     },
     {
-        title: "calendar library",
-        image: calendarimage,
-        github: "https://github.com/quar-tech/mvc-recipe-sharing",
-        site: "https://mvc-culinary-connect-e00ad0e3e10d.herokuapp.com/"
+        title: "SkillMagnet",
+        image: skillmagnetimage,
+        github: "https://github.com/quin-tech/full-stack-service-app",
+        site: "https://full-stack-service-app.onrender.com/"
     },
 
 ]
