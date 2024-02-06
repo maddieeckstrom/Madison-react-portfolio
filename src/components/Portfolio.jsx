@@ -13,10 +13,10 @@ const projects = [
         site: "https://mvc-culinary-connect-e00ad0e3e10d.herokuapp.com/"
     },
     {
-        title: "weather forecast",
-        image: weatherimage,
-        github: "https://github.com/maddieeckstrom/weather-forecast-dashboard",
-        site: "https://maddieeckstrom.github.io/weather-forecast-dashboard//"
+        title: "SkillMagnet",
+        image: skillmagnetimage,
+        github: "https://github.com/quin-tech/full-stack-service-app",
+        site: "https://full-stack-service-app.onrender.com/"
     },
     {
         title: "api quiz",
@@ -37,12 +37,11 @@ const projects = [
         site: "https://maddieeckstrom.github.io/Madison_super_portfolio/"
     },
     {
-        title: "SkillMagnet",
-        image: skillmagnetimage,
-        github: "https://github.com/quin-tech/full-stack-service-app",
-        site: "https://full-stack-service-app.onrender.com/"
-    },
-
+        title: "weather forecast",
+        image: weatherimage,
+        github: "https://github.com/maddieeckstrom/weather-forecast-dashboard",
+        site: "https://maddieeckstrom.github.io/weather-forecast-dashboard//"
+    }
 ]
 
 
