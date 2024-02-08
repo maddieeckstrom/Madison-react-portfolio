@@ -7,7 +7,7 @@ import skillmagnetimage from '../assets/images/skillmagnet.png';
 
 const projects = [
     {
-        title: "culinary connect",
+        title: "Culinary Connect",
         image: culinaryimage,
         github: "https://github.com/quar-tech/mvc-recipe-sharing",
         site: "https://mvc-culinary-connect-e00ad0e3e10d.herokuapp.com/"
@@ -19,25 +19,25 @@ const projects = [
         site: "https://full-stack-service-app.onrender.com/"
     },
     {
-        title: "api quiz",
+        title: "Timed Quiz",
         image: quizimage,
         github: "https://github.com/maddieeckstrom/API-timed-coding-quiz",
         site: "https://maddieeckstrom.github.io/API-timed-coding-quiz/"
     },
     {
-        title: "movie mix & sip",
+        title: "Movie Mix & Sip",
         image: moviemiximage,
         github: "https://github.com/ucb-allstars-project-1/movie-cocktail-combo",
         site: "https://ucb-allstars-project-1.github.io/movie-cocktail-combo/"
     },
     {
-        title: "my first portfolio",
+        title: "My First Portfolio",
         image: portfolioimage,
         github: "https://github.com/maddieeckstrom/Madison_super_portfolio",
         site: "https://maddieeckstrom.github.io/Madison_super_portfolio/"
     },
     {
-        title: "weather forecast",
+        title: "Weather Forecast",
         image: weatherimage,
         github: "https://github.com/maddieeckstrom/weather-forecast-dashboard",
         site: "https://maddieeckstrom.github.io/weather-forecast-dashboard//"
