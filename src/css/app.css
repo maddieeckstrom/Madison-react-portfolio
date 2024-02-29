@@ -56,7 +56,7 @@ body {
     }
 }
 
-@media screen and (max-width: 355px) {
+@media screen and (max-width: 450px) {
     .navbarLinks {
         padding-left: 1%;
         padding-right: 1%;
@@ -243,9 +243,10 @@ a.active {
     }
 }
 
-@media screen and (max-width: 355px) {
+@media screen and (max-width: 450px) {
     .portfolioDiv h2 {
         font-size: .75em;
+        height: 4ch;
     }
 }
 
@@ -271,8 +272,10 @@ a.active {
     }
 }
 
-@media screen and (max-width: 355px) {
+@media screen and (max-width: 450px) {
     .portfolioLinks {
+        flex-direction: column;
+        align-items: center;
         font-size: .5em;
     }
 }
