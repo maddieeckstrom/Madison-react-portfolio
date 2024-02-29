@@ -82,39 +82,37 @@ a.active {
     justify-content: center;
 }
 
-@media screen and (max-width: 700px) {
-    .aboutmeSection {
-        padding-left: 0%;
-        padding-right: 0%;
-    }
-}
-
 .aboutmeContainer {
     position: relative;
     text-align: center;
-}
-
-@media screen and (min-width: 1200px) {
-    .aboutmeContainer {
-        max-width: 75%;
-    }
+    max-height: 100vh;
 }
 
 .backgroundImage {
-    max-width: 98%;
-    height: auto;
+    height: 100vh;
+    width: auto;
+    object-fit: cover;
     opacity: .65;
-    max-height: 97%;
-    margin-block-start: 1.5%;
 }
 
-@media screen and (min-width: 1000px) {
+@media screen and (min-width: 1001px) {
     .backgroundImage {
         width: 100%;
-        height: 80%;
-        opacity: .65;
-        max-height: 97%;
-        margin-block-start: 1.5%;
+        height: 100%;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .backgroundImage {
+        max-width: 100%;
+        max-height: 100%;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .backgroundImage {
+        max-width: 100vw;
+        max-height: 75vh;
     }
 }
 
@@ -123,77 +121,95 @@ a.active {
     margin-block: 0;
     position: absolute;
     top: 20%;
-    left: 5%;
-    right: 5%;
+    left: 3%;
     transform: translate(0%, -50%);
-    padding: 5%;
-
 }
 
-@media screen and (min-width: 1000px) {
+@media screen and (min-width: 1001px) {
     .aboutmeP {
-        font-size: 1.5vw;
-        margin-block: 0;
+        font-size: 4.5vh;
+        max-width: 33.5vw;
+        height: 73vh;
         position: absolute;
-        top: 17%;
-        left: 5%;
-        right: 5%;
-        transform: translate(0%, -50%);
-        padding: 3%;
+        padding: 1% 1% 1% 1%;
+        top: 50%;
+        left: 4%;
+        background-color: #FFFFF0;
+    }
+}
+
+@media screen and (max-width: 1270px) {
+    .aboutmeP {
+        font-size: 4.4vh;
+
+    }
+}
+@media screen and (max-width: 1200px) {
+    .aboutmeP {
+        font-size: 4.1vh;
+
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .aboutmeP {
+        font-size: 1.8vw;
+        padding: 2%;
     }
 }
 
 @media screen and (max-width: 700px) {
     .aboutmeP {
-        font-size: 2vw;
-        top: 20%;
+        font-size: 2.5vw;
     }
 }
 
-@media screen and (max-width: 550px) {
+@media screen and (max-width: 500px) {
     .aboutmeP {
-        font-size: 2.5vw;
-        top: 25%;
-        left: 1%;
-        right: 1%;
+        top: 15%;
+        font-size: 3vw;
     }
+}
+
+.myImgBox {
+    display: flex;
+    justify-content: center;
 }
 
 .aboutmeImage {
-    max-width: 48%;
+    max-height: 75vh;
     height: auto;
     object-fit: contain;
     margin-block: 0;
     position: absolute;
-    top: 65%;
-    left: 25%;
     transform: translate(0%, -50%);
     border: solid .25em #FFFFF0;
 }
 
-@media screen and (min-width: 1000px) {
-   .aboutmeImage {
-        max-width: 48%;
-        height: auto;
-        object-fit: contain;
-        margin-block: 0;
-        position: absolute;
-        top: 55%;
-        left: 25%;
-        transform: translate(0%, -50%);
-        border: solid 0.25em #FFFFF0;
-   } 
-}
-
-@media screen and (max-width: 700px) {
+@media screen and (min-width: 1001px) {
     .aboutmeImage {
-        top: 67%;
+        height: 75vh;
+        max-width: 35vw;
+        object-fit: cover;
+        left: 50.5%;
+        top: 50%;
     }
 }
 
-@media screen and (max-width: 550px) {
+@media screen and (max-width: 1000px) {
     .aboutmeImage {
-        top: 71%;
+        max-height: 60vh;
+        max-width: 100%;
+        top: 67vh;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .aboutmeImage {
+        max-height: 60vh;
+        max-width: 90%;
+        top: 45vh;
+        margin-top: 4%;
     }
 }
 
@@ -303,26 +319,6 @@ a.active {
     border: solid rgb(92, 151, 171);
 }
 
-.avatarImage {
-    max-width: 25%;
-    height: auto;
-    align-self: center;
-    padding-top: 2%;
-}
-
-@media screen and (max-width: 900px) {
-    .avatarImage {
-        max-width: 40%;
-        height: auto;
-    }
-}
-
-@media screen and (max-width: 700px) {
-    .avatarImage {
-        max-width: 50%;
-        height: auto;
-    }
-}
 
 .contactForm {
     display: flex;
