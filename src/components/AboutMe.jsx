@@ -1,7 +1,15 @@
+import { useEffect } from 'react';
 import backgroundimage from '../assets/images/backgroundimage2.jpg';
 import aboutmeimage from '../assets/images/aboutme3.jpg';
 
 export default function AboutMe() {
+
+    useEffect(() => {
+        const preloadImages = [backgroundimage, aboutmeimage];
+        preloadImages.forEach((image) => {
+            new Image().src = image;
+        });
+    }, []);
     
     return (
         <section className="aboutmeSection">
