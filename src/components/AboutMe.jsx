@@ -1,11 +1,10 @@
 import { useEffect } from 'react';
-import backgroundimage from '../assets/images/backgroundimage2.jpg';
-import aboutmeimage from '../assets/images/aboutme3.jpg';
+import MadisonImage from '../assets/images/MadisonIMG.png';
 
 export default function AboutMe() {
 
     useEffect(() => {
-        const preloadImages = [backgroundimage, aboutmeimage];
+        const preloadImages = [MadisonImage];
         preloadImages.forEach((image) => {
             new Image().src = image;
         });
@@ -14,11 +13,16 @@ export default function AboutMe() {
     return (
         <section className="aboutmeSection">
             <div className="aboutmeContainer">
-                <img className="backgroundImage" src={backgroundimage}/>
-                <p className="aboutmeP"> My name is Madison Eckstrom; I am a web developer specializing in front-end development located on the island of O'ahu, Hawai'i. My skills include HTML, CSS, JavaScript, API, React, and more. Outside of work you'll find me looking for good movies to watch, enjoying some sunshine, or cooking a gratifying meal. I have a positive and passionate work ethic and hope to continually impact others through my leadership and communication. I look forward to connecting with you, <br/> <br/>
-                Aloha!</p>
+                <div className="textBox">
+                    <div className="textHeading">
+                        <h1>Hello,</h1>
+                        <h1>I'm Madison!</h1>
+                    </div>
+                    <p>I am a web developer specializing in front-end development located on the island of O'ahu, Hawai'i. My skills include HTML, CSS, JavaScript, API, React, and more. I have a positive and passionate work ethic and hope to continually impact others through my leadership and communication. I look forward to connecting with you,</p>
+                    <h3>Aloha!</h3>
+                </div>
                 <div className="myImgBox">
-                    <img className="aboutmeImage" src={aboutmeimage}/>
+                    <img className="MadisonImage" src={MadisonImage}/>
                 </div>
             </div>
         </section>

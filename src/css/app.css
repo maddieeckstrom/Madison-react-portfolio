@@ -1,34 +1,18 @@
 body {
-    background-color: #FFFFF0;
-    font-family: Garamond, Courier, Georgia, Times, 'Times New Roman', serif;
-    padding-left: 10%;
-    padding-right: 10%;
+    background-color: #fdfdbc;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    padding-left: 5%;
+    padding-right: 5%;
 }
 
 .navbar {
     display: flex;
     justify-content: space-between;
-    padding-left: 15%;
-    padding-right: 15%;
     padding-bottom: 3%;
-    color: #F28C28;
+    color: rgb(4, 152, 159);
 }
 
-@media screen and (min-width: 1200px) {
-    .navbar {
-        padding-left: 25%;
-        padding-right: 25%;
-    }
-}
-
-@media screen and (max-width: 900px) {
-    .navbar {
-        padding-left: 5%;
-        padding-right: 5%;
-    }
-}
-
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 850px) {
     .navbar {
         padding-left: 0%;
         padding-right: 0%;
@@ -45,14 +29,14 @@ body {
 
 .navbarLinks {
     display: flex;
-    gap: 10px;
+    gap: 50px;
     align-items: center;
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 850px) {
     .navbarLinks {
-        padding-left: 3%;
-        padding-right: 3%;
+        gap: 25px;
+        padding-left: 10%;
     }
 }
 
@@ -65,7 +49,7 @@ body {
 }
 
 a {
-    color: #F28C28;
+    color: rgb(4, 152, 159);
     font-weight: bold;
 }
 
@@ -74,148 +58,145 @@ a:link {
 }
 
 a.active {
-    color: rgb(92, 151, 171);
+    /* color: rgb(92, 151, 171); */
+    color: #F28C28;
 }
 
 .aboutmeSection {
     display: flex;
+    flex-direction: row;
     justify-content: center;
 }
 
 .aboutmeContainer {
     position: relative;
-    text-align: center;
-    max-height: 100vh;
-}
-
-.backgroundImage {
-    height: 100vh;
-    width: auto;
-    object-fit: cover;
-    opacity: .65;
-}
-
-@media screen and (min-width: 1001px) {
-    .backgroundImage {
-        width: 100%;
-        height: 100%;
-    }
+    max-width: 100%;
+    height: auto;
+    padding-left: 10%;
+    padding-right: 10%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
 }
 
 @media screen and (max-width: 1000px) {
-    .backgroundImage {
-        max-width: 100%;
-        max-height: 100%;
+    .aboutmeContainer {
+        padding-left: 5%;
+        padding-right: 5%;
     }
 }
 
-@media screen and (max-width: 500px) {
-    .backgroundImage {
-        max-width: 100vw;
-        max-height: 75vh;
+@media screen and (max-width: 850px) {
+    .aboutmeContainer {
+        padding-left: 0%;
+        padding-right: 0%;
+    }
+}
+
+@media screen and (max-width: 756px) {
+    .aboutmeContainer {
+        padding-left: 5%;
+        padding-right: 5%;
+        flex-direction: column;
+    }
+}
+
+.textBox {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    padding: 2%;
+    background-color: white;
+    justify-content: space-between;
+}
+
+@media screen and (max-width:756px) {
+    .textBox {
+        text-align: center;
+        order: 2;
+        padding-top: 5%;
+        padding-bottom: 5%;
+    }
+    .textHeading {
+        display: flex;
+        justify-content: center;
+        gap: 5px;
+    }
+}
+
+.textBox h1 {
+    font-size: 3vw;
+    padding-top: 0;
+    margin: 0;
+}
+
+@media screen and (max-width:756px) {
+    .textBox h1 {
+        font-size: 4vw;
+    }
+}
+
+@media screen and (max-width:550px) {
+    .textBox h1 {
+        font-size: 4.5vw;
+    }
+}
+
+.textBox p {
+    padding-right: 20%;
+}
+
+@media screen and (max-width:1000px) {
+    .textBox p {
+        padding-right: 0%;
+    }
+}
+
+.textBox h3 {
+    color:#F28C28;
+    font-size: 2.3vw;
+    margin: 0;
+}
+
+@media screen and (max-width:756px) {
+    .textBox h3 {
+        font-size: 3.5vw;
+    }
+}
+
+@media screen and (max-width:550px) {
+    .textBox h3 {
+        font-size: 4vw;
     }
 }
 
 .aboutmeP {
-    font-size: 1.75vw;
-    margin-block: 0;
-    position: absolute;
-    top: 20%;
-    left: 3%;
-    transform: translate(0%, -50%);
-}
-
-@media screen and (min-width: 1001px) {
-    .aboutmeP {
-        font-size: 4.5vh;
-        max-width: 33.5vw;
-        height: 73vh;
-        position: absolute;
-        padding: 1% 1% 1% 1%;
-        top: 50%;
-        left: 4%;
-        background-color: #FFFFF0;
-    }
-}
-
-@media screen and (max-width: 1270px) {
-    .aboutmeP {
-        font-size: 4.4vh;
-
-    }
-}
-@media screen and (max-width: 1200px) {
-    .aboutmeP {
-        font-size: 4.1vh;
-
-    }
-}
-
-@media screen and (max-width: 1000px) {
-    .aboutmeP {
-        font-size: 1.8vw;
-        padding: 2%;
-    }
-}
-
-@media screen and (max-width: 700px) {
-    .aboutmeP {
-        font-size: 2.5vw;
-    }
-}
-
-@media screen and (max-width: 500px) {
-    .aboutmeP {
-        top: 15%;
-        font-size: 3vw;
-    }
+    color: black;
 }
 
 .myImgBox {
+    flex: .75;
     display: flex;
-    justify-content: center;
+    align-items: center;
 }
 
-.aboutmeImage {
-    max-height: 75vh;
-    height: auto;
-    object-fit: contain;
-    margin-block: 0;
-    position: absolute;
-    transform: translate(0%, -50%);
-    border: solid .25em #FFFFF0;
-}
-
-@media screen and (min-width: 1001px) {
-    .aboutmeImage {
-        height: 75vh;
-        max-width: 35vw;
-        object-fit: cover;
-        left: 50.5%;
-        top: 50%;
+@media screen and (max-width:756px) {
+    .myIMGBox {
+        order: 1;
     }
 }
 
-@media screen and (max-width: 1000px) {
-    .aboutmeImage {
-        max-height: 60vh;
-        max-width: 100%;
-        top: 67vh;
-    }
-}
-
-@media screen and (max-width: 500px) {
-    .aboutmeImage {
-        max-height: 60vh;
-        max-width: 90%;
-        top: 45vh;
-        margin-top: 4%;
-    }
+.MadisonImage {
+width: 100%;
+height: auto;
+object-fit: contain;
 }
 
 .portfolio {
     display: flex;
     flex-direction: column;
+    padding-left: 10%;
+    padding-right: 10%;
 }
 
 .portfolioGrid {
@@ -226,11 +207,11 @@ a.active {
 .portfolioDiv {
     margin: 1%;
     padding: 3%;
-    background-color: rgb(237, 246, 249);
+    background-color: white;
     text-align: center;
     display: flex;
     flex-direction: column;
-    color: #F28C28;
+    color: black;
 }
 
 .portfolioDiv h2 {
@@ -330,6 +311,8 @@ a.active {
     position: relative;
     height: 50vw;
     justify-content: center;
+    /* padding-left: 10%;
+    padding-right: 10%; */
 }
 
 #contactBackImage {
