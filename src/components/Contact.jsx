@@ -41,7 +41,7 @@ export default function BasicForm() {
 
 
   return (
-    <section>
+    <section className="contactSection">
         <form id="contactBackImage" className="contactForm" onSubmit={(e) => onSubmit(e)}>
 
             <h2 className="contactHeader">let's connect</h2>
