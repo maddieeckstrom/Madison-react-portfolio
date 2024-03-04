@@ -3,6 +3,7 @@ body {
     font-family:Georgia, 'Times New Roman', Times, serif;
     padding-left: 5%;
     padding-right: 5%;
+    overflow-x: hidden;
 }
 
 .navbar {
@@ -86,17 +87,8 @@ a.active {
     }
 }
 
-@media screen and (max-width: 850px) {
-    .aboutmeContainer {
-        padding-left: 0%;
-        padding-right: 0%;
-    }
-}
-
 @media screen and (max-width: 756px) {
     .aboutmeContainer {
-        padding-left: 5%;
-        padding-right: 5%;
         flex-direction: column;
     }
 }
@@ -144,11 +136,19 @@ a.active {
 
 .textBox p {
     padding-right: 20%;
+    margin-top: 0;
+    margin-bottom: 0;
 }
 
 @media screen and (max-width:1000px) {
     .textBox p {
         padding-right: 0%;
+    }
+}
+@media screen and (max-width:756px) {
+    .textBox p {
+        margin-top: 5%;
+        margin-bottom: 5%;
     }
 }
 
@@ -190,6 +190,29 @@ a.active {
 width: 100%;
 height: auto;
 object-fit: contain;
+}
+
+.palm {
+    max-width: 90%;
+    margin-left: -15vw;
+    margin-top: 10vh;
+    position: absolute;
+}
+
+@media screen and (max-width: 756px) {
+    .palm {
+        max-width: 200%;
+        margin-left: -30vw;
+        margin-top: 15vh;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .palm {
+        max-width: 200%;
+        margin-left: -32vw;
+        margin-top: 5vh;
+    }
 }
 
 .portfolio {

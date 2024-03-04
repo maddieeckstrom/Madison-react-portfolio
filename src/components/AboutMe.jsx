@@ -1,5 +1,6 @@
 import { useEffect } from 'react';
 import MadisonImage from '../assets/images/MadisonIMG.png';
+import Palm from '../assets/images/palmtree.png'
 
 export default function AboutMe() {
 
@@ -23,8 +24,10 @@ export default function AboutMe() {
                 </div>
                 <div className="myImgBox">
                     <img className="MadisonImage" src={MadisonImage}/>
+                    <img className="palm" src={Palm}></img>
                 </div>
             </div>
+            {/* <img className="palm" src={Palm}></img> */}
         </section>
     )
 }
