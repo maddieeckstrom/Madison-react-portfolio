@@ -3,10 +3,10 @@ export default function Footer() {
         <footer>
             <ul className="footer">
                 <li>
-                    <a href="https://github.com/maddieeckstrom">My GitHub</a>
+                    <a href="https://github.com/maddieeckstrom">GitHub</a>
                 </li>
                 <li>
-                    <a href="https://www.linkedin.com/in/madison-eckstrom/">My LinkedIn</a>
+                    <a href="https://www.linkedin.com/in/madison-eckstrom/">LinkedIn</a>
                 </li>
             </ul>
         </footer>
