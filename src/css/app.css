@@ -197,6 +197,7 @@ object-fit: contain;
     margin-left: -15vw;
     margin-top: 10vh;
     position: absolute;
+    z-index: 0;
 }
 
 @media screen and (max-width: 756px) {
@@ -417,6 +418,8 @@ object-fit: contain;
     padding-right: 15%;
     padding-top: 3%;
     justify-content: space-between;
+    position: relative;
+    z-index: 1;
 }
 
 @media screen and (min-width: 1200px) {
