@@ -25,11 +25,10 @@ Front End Developer or Engineer. I have a positive and passionate work ethic and
                     <h3>Aloha!</h3>
                 </div>
                 <div className="myImgBox">
-                    <img className="MadisonImage" src={MadisonImage}/>
-                    <img className="palm" src={Palm}></img>
+                    <img className="MadisonImage" src={MadisonImage} alt="Madison image"/>
+                    <img className="palm" src={Palm} alt="Palm image"></img>
                 </div>
             </div>
-            {/* <img className="palm" src={Palm}></img> */}
         </section>
     )
 }

@@ -53,7 +53,7 @@ export default function Portfolio() {
                 {projects.map((project) => (
                     <div className="portfolioDiv" key={project.title}>
                         <h2>{project.title}</h2>
-                        <img className="portfolioCards" src={project.image} alt="culinary connect"/>
+                        <img className="portfolioCards" src={project.image} alt="website image from portfolio"/>
                         <div className="portfolioLinks">
                             <a href={project.github}>GitHub</a>
                             <a href={project.site}>Live Site</a>
